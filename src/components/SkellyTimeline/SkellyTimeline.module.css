@@ -1,0 +1,53 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  left: 22px;
+  top: 16px;
+  bottom: 16px;
+  width: 2px;
+}
+
+.node {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.nodeContent {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.nodeLine {
+  height: 12px;
+  border-radius: 4px;
+}
+
+.nodeLine:nth-child(1) {
+  width: 60%;
+}
+
+.nodeLine:nth-child(2) {
+  width: 80%;
+}

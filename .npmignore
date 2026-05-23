@@ -1,0 +1,12 @@
+src/
+stories/
+.storybook/
+coverage/
+storybook-static/
+*.test.tsx
+*.stories.tsx
+vitest.config.ts
+tsconfig.json
+rollup.config.mjs
+.gitignore
+node_modules/
